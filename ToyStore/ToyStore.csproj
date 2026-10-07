@@ -144,6 +144,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\My image\5702018068397.jpg" />
+    <Content Include="Content\My image\98582e94c3e94c5c83ae526757ad003b.jpg" />
+    <Content Include="Content\My image\asdadada.jpg" />
+    <Content Include="Content\My image\Banner-Tro-choi-thu-nhun.jpg" />
+    <Content Include="Content\My image\wwwwewewe.jpg" />
+    <Content Include="Content\MyContent\HomePage.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />

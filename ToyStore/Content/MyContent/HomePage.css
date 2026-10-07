@@ -1,0 +1,229 @@
+﻿header {
+    background-color: dodgerblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+    .logo img {
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .logo h1 {
+        margin-left: 10px;
+        font-size: 24px;
+    }
+
+.search-section {
+    text-align: center;
+    position: absolute;
+    left: 35%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #555;
+}
+
+.header-menu {
+    border-bottom: 1px solid #ccc;
+}
+
+.main-menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+    padding: 20px;
+    align-items: center;
+}
+
+    .main-menu ul li {
+        margin: 0 15px;
+    }
+
+    .main-menu ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+    }
+
+.main-menu a:hover {
+    color: white;
+}
+
+.icon-header {
+    list-style: none; /* Xóa dấu chấm */
+    display: flex; /* Cho các li nằm ngang */
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa 2 icon */
+    margin: 0;
+    padding: 0;
+}
+
+    .icon-header .icon {
+        display: inline-block;
+    }
+
+        .icon-header .icon a {
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .icon-header .icon a:hover {
+            color: white;
+        }
+
+.banner {
+    background-image: url('../My image/Banner-Tro-choi-thu-nhun.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-bar {
+    width: 100%;
+    height: 82px;
+    background-color: #08a9df;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+    box-sizing: border-box;
+}
+
+.feature-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+    
+
+.feature-icon {
+    width: 46px;
+    height: 46px;
+    background-color: navajowhite;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    flex-shrink: 0;
+
+}
+
+    .feature-icon i {
+        color: black;
+        font-size: 22px;
+    }
+
+.feature-content h3 {
+    margin: 0 0 5px 0;
+    color: white;
+    font-size: 15px;
+}
+
+.feature-content p {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.feature-product {
+    text-align: center;
+}
+
+.feature-product h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.product-item {
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+    .product-item img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ccc;
+    }
+
+.product-item h3 {
+    font-size: 18px;
+    margin: 10px 0 ;
+}
+
+    .product-item .price {
+        font-weight: bold;
+    }
+
+.banner-product {
+    background-image: url('../My image/Banner-Tro-choi-thu-nhun.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    height: 200px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.feature-product-new {
+    text-align: center;
+    padding-top: 200px;
+}
+
+    .feature-product-new h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+.feature-product-best {
+    text-align: center;
+    padding-top: 200px;
+}
+
+    .feature-product-best h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
